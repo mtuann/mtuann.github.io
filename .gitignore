@@ -1,0 +1,75 @@
+# IDE and Editor files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# FontAwesome development files (these are large and not needed for production)
+# Keep only the single JS runtime used by index.html.
+assets/fontawesome/css/
+assets/fontawesome/webfonts/
+assets/fontawesome/js/*
+!assets/fontawesome/js/
+!assets/fontawesome/js/all.min.js
+assets/fontawesome/svgs/
+assets/fontawesome/metadata/
+assets/fontawesome/sprites/
+assets/fontawesome/scss/
+assets/fontawesome/less/
+
+# Source maps (reduce repository size)
+*.map
+
+# Node.js dependencies (if any exist)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary and cache files
+*.tmp
+*.cache
+*.log
+.cache/
+.tmp/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Plugin development files (keep only production files)
+assets/plugins/popper.min.js
+assets/plugins/github-activity/
+assets/plugins/github-calendar/
+assets/plugins/iconfont/
+assets/plugins/vanilla-rss/
+assets/plugins/bootstrap/js/
+assets/plugins/bootstrap/css/*
+!assets/plugins/bootstrap/css/
+!assets/plugins/bootstrap/css/bootstrap.min.css
+assets/plugins/dark-mode-switch/*
+!assets/plugins/dark-mode-switch/
+!assets/plugins/dark-mode-switch/LICENSE
+!assets/plugins/dark-mode-switch/dark-mode-switch.min.js
+assets/plugins/*/src/
+assets/plugins/*/test/
+assets/plugins/*/docs/
+assets/plugins/*/examples/
+assets/plugins/*/Gruntfile.js
+assets/plugins/*/package.json
+assets/plugins/*/package-lock.json
+
+# Publication source images have been replaced with optimized WebP teasers.
+images/projects/*.png
+images/projects/*.jpg

@@ -443,6 +443,12 @@ a.btn-cta-primary:active,
     text-decoration: none;
 }
 
+.latest .item.mcp-publication > a.col-md-4,
+.latest .item.mcp-publication > .desc {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .latest .item .project-image {
     background: #fff;
     box-shadow: none !important;

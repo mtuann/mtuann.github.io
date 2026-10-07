@@ -125,7 +125,6 @@
     border-radius: 14px; background: var(--surface); box-shadow: var(--shadow);
     transition: border-color .15s ease, transform .15s ease; }
   .card:hover { border-color: var(--accent); transform: translateY(-2px); }
-  .card.static:hover { border-color: var(--rule); transform: none; }
   .card h3 { margin: 0 0 6px; font-size: 15.5px; font-weight: 600; line-height: 1.35; }
   .card h3 a { color: var(--fg); }
   .card h3 a:hover { color: var(--accent); text-decoration: none; }
@@ -205,9 +204,10 @@
   <section aria-labelledby="proj-h">
     <h2 id="proj-h">Projects</h2>
     <ul class="projects">
-      <li class="card static">
-        <h3>CUDA convolution kernels</h3>
+      <li class="card">
+        <h3><a href="https://github.com/mtuann/cuda-cnn-convolution-optimization">CUDA convolution kernels</a></h3>
         <p>UIUC CS 483 course project: fused implicit-GEMM CUDA kernels for CNN layers, tuned with Nsight profiling.</p>
+        <p class="go"><a href="https://github.com/mtuann/cuda-cnn-convolution-optimization">Code →</a></p>
       </li>
       <li class="card">
         <h3><a href="https://github.com/mtuann/fedlearn-backdoor-attacks">Federated-learning framework</a></h3>

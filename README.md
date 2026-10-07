@@ -2,7 +2,7 @@
 
 Source for my personal website: **https://mtuann.github.io/**
 
-One static page (`index.html`): plain HTML and CSS with no frameworks or third-party requests, and light and dark themes that follow the visitor's system setting. Fonts are Inter and Newsreader (SIL Open Font License), self-hosted in `assets/fonts/`. The CV linked from the page is `assets/pdf/Tuan_Nguyen_CV.pdf`.
+One static page (`index.html`): plain HTML and CSS with no frameworks, and light and dark themes that follow the visitor's system setting. The only third-party request is the cookie-free [GoatCounter](https://www.goatcounter.com/) analytics script. Fonts are Inter and Newsreader (SIL Open Font License), self-hosted in `assets/fonts/`. The CV linked from the page is `assets/pdf/Tuan_Nguyen_CV.pdf`.
 
 ## Links
 
